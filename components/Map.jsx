@@ -60,7 +60,7 @@ const Map = () => {
                   <p className="font-bold">{i.Name}</p>
                   <p className="">{i.Address}</p>
                   <p className="mt-2">{i.Description}</p>
-                  <p className="mt-2 font-bold text-indigo-500"><a href={i.Link} target="_blank">Link do hotelu</a></p>
+                  <p className="mt-2 font-bold text-indigo-500"><a href={i.Link} target="_blank" rel="noreferrer">Link do hotelu</a></p>
                   
                 </div>
               </Popup>
