@@ -14,10 +14,11 @@ const Navbar = () => {
             className="cursor-pointer"
           />
         </Link>
-        <div className="lg:flex md:flex space-x-6">
+        <div className="lg:flex items-center md:flex space-x-6">
           <Link href="/">Home</Link>
           <Link href="#features">Plan</Link>
           <Link href="#gallery">Galeria</Link>
+          <Link href="#videos"><p className="bg-yellow-400 p-2 rounded-2xl font-bold cursor-pointer">Video</p></Link>
         </div>
       </div>
     </nav>

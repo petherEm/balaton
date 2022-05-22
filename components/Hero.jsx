@@ -34,7 +34,7 @@ const Hero = ({ data }) => {
 
         {/* Right */}
 
-        <div className="md:w-1/4 w-3/4 bg-blue-600/50 h-40 rounded-2xl p-4 z-50 text-white shadow-lg">
+        <div className="md:w-1/4 w-3/4 bg-blue-600/50 max-h-fit rounded-2xl p-4 z-50 text-white shadow-lg">
           
           <div className="flex items-center gap-x-2"><HiSun style={{ fontSize: "25px", color: "gold"  }}/>Aktualna temp. {Math.round(data.main.temp)} °C</div>
           <div className="flex items-center gap-x-2"><HiTrendingDown style={{ fontSize: "25px", color: "gold"  }}/>Odczuwalna {Math.round(data.main.feels_like)} °C</div>

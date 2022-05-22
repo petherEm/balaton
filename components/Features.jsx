@@ -11,14 +11,16 @@ const Features = () => {
         <h2 className="max-w-md text-4xl font-bold text-center md:text-left">
           Podstawowe Info
         </h2>
-        <p className="max-w-md text-center text-gray-600 md:text-left">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt
-          dicta, enim distinctio ipsum officia facilis a nostrum ea ipsam eum!
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt
-          dicta, enim distinctio ipsum officia facilis a nostrum ea ipsam eum!
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt
-          dicta, enim distinctio ipsum officia facilis a nostrum ea ipsam eum!
-        </p>
+        <div className="max-w-md text-center text-gray-600 md:text-left">
+          Ścieżka w okół jeziora jest nam dobrze znana. W maju 2019 objechaliśmy całe jezioro zaczynając w kierunku wschodnim. 
+          W tym roku pojechaliśmy w kierunku zachodnim docierając do Heviz, gdzie skorzystaliśmy ze słynnych term. Następnego dnia jechaliśmy północną częścią jeziora docierając do półwyspu Tichany. Tym razem podjęliśmy się wjazdu na szczyt półwyspu. 
+          
+          <ul>
+            <li>1 dzień - 73km, 2000kcal</li>
+            <li>2 dzień - 84km, 2550kcal</li>
+            <li>3 dzień - 72km, 1900kcal</li>
+          </ul>
+        </div>
         <div className="rounded-lg m-6 z-50">
             <Map />
         </div>

@@ -1,8 +1,9 @@
 import Head from "next/head";
 import Image from "next/image";
 import Features from "../components/Features";
-import Gallery from "../components/Gallery";
+import GalleryNew from "../components/GalleryNew";
 import Hero from "../components/Hero";
+import VideoGal from "../components/VideoGal";
 
 export default function Home({ data }) {
   return (
@@ -21,7 +22,9 @@ export default function Home({ data }) {
 
       <Features />
 
-      <Gallery />
+      <VideoGal />
+
+      <GalleryNew />
     </div>
   );
 }
